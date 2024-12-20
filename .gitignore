@@ -1,0 +1,15 @@
+# Folders
+/mods
+/crash-reports
+/.mixin.out
+/logs
+/local
+/journeymap
+/downloads
+/resourcepacks
+/saves
+
+# Files
+.curseclient
+minecraftinstance.json
+realms_perscistence.json
