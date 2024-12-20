@@ -1,0 +1,9 @@
+[
+  {"version":2},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"mekanism:ingot_steel"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"mekanism:block_steel"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"samurai_dynasty:steel_nugget"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"samurai_dynasty:steel_block"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"samurai_dynasty:steel_ingot"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"mekanism:nugget_steel"},"type":"item_stack"}}
+]
