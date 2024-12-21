@@ -1,0 +1,69 @@
+{
+	chapter.166D189A51BCC942.title: "Immersive Engineering"
+	chapter.1C54F9E8BF9165DE.title: "Actually Addition"
+	chapter.299917F7D4E9DEBF.title: "Applied Energistics 2"
+	chapter.36EF36E28A62C694.title: "Mekanism"
+	chapter.440E1531F121BAE3.title: "PneumaticCraft"
+	chapter.514C36FC668197C3.title: "Misc"
+	chapter.5F22C33B3C640AE8.title: "Industrial Foregoing"
+	chapter.65AE00FFCE54306F.title: "Starter"
+	quest.03DB655100CC2CD5.quest_subtitle: "Stupid Quest !!"
+	quest.049E5BB161C704E3.title: "Furnace : VII"
+	quest.091472316A7A4676.quest_desc: [
+		"Sometimes there will \"Stupid Quest\"."
+		""
+		"They are here because I'm stupid and I want you to craft what's ask, most of those are useless item."
+		""
+		"But I want them."
+		""
+		"They are optional quest, I know a vast majority of you will not do them."
+	]
+	quest.0EA9F5104F58C970.title: "Furnace : II"
+	quest.0EDACBD5A50B7E87.quest_desc: [
+		"It's way to easy to teleport so you will have to wait for Mekanism to do this."
+		""
+		"Enjoy the long foot travel, even if it is not necessary."
+	]
+	quest.1D14B5ACF835BA82.quest_desc: [
+		"There is no teleportation so use a pet."
+		""
+		"The fat-est one is better, no ?"
+	]
+	quest.1D14B5ACF835BA82.quest_subtitle: "Stupid Quest !!"
+	quest.1FB4FCB5AFC8475C.quest_subtitle: "Stupid Quest !!"
+	quest.2B37F685F5233D3F.quest_desc: ["This one might be useful."]
+	quest.2B37F685F5233D3F.quest_subtitle: "Stupid Quest !!"
+	quest.37FC3CC8B36D1D41.title: "Furnace : V"
+	quest.432A594D8E8AFF89.quest_desc: ["For loading your base and/or farm, use the Chunk Loader mod rather than the FTB otpion cause there is a limit to FTB that I did not change for a reason and i think the chunk loader are affordable enough."]
+	quest.43EEB871E3B9C8B8.quest_desc: [""]
+	quest.49785A486F9374FC.quest_desc: ["Why not ?"]
+	quest.49785A486F9374FC.quest_subtitle: "Stupid Quest !!"
+	quest.4CD94C197953EBB5.title: "Furnace : VIII"
+	quest.4D08D6682C76B186.quest_desc: ["You might want to make both of them."]
+	quest.58F3FA3C6BD8C497.quest_subtitle: "Stupid Quest !!"
+	quest.5904E1E1FB030BFD.title: "Furnace : III"
+	quest.5C60828DCC82B8A5.quest_desc: ["That's cool, I want you to have it."]
+	quest.5C60828DCC82B8A5.quest_subtitle: "Stupid Quest !!!"
+	quest.5D7DB8DB66725105.title: "Furnace : VI"
+	quest.737EDDDB5E7D3DB2.title: "Furnace : IV"
+	quest.738D622BC8009532.quest_desc: [
+		"This replaces the usual drawer mod."
+		""
+		"Enjoy"
+	]
+	quest.7B9A7528A0B2118B.title: "Furnace : I"
+	task.05078576463D3636.title: "Obsidian Furnace"
+	task.09B252149F86BF3B.title: "Iron Furnace"
+	task.108FDCB2BD4F494A.title: "Copper Furnace"
+	task.170D8AAD2040EB77.title: "Barrel"
+	task.1822E5632D6D0683.title: "Stupid Quest"
+	task.21BD8323431A20EF.title: "Start"
+	task.28C3D246E823A49E.title: "Teleportation"
+	task.4025096BA242CA0C.title: "Diamond Furnace"
+	task.43294A27C1A36BE9.title: "Emerald or Glass Furnace"
+	task.65CA8E8B68CBE260.title: "Netherite Furnace"
+	task.68D91E54A369221D.title: "Chunk Load"
+	task.736737B31D910210.title: "Gold Furnace"
+	task.7760B5D900089D47.title: "Laser Base"
+	task.79DE689ED3C36F7D.title: "Silver Furnace"
+}

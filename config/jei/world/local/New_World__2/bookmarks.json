@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:milk_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tiab:time_in_a_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:wither_builder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:mycelial_reactor"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

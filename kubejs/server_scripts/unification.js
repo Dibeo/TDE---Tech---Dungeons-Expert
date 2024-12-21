@@ -1,12 +1,5 @@
 // Unification
 ServerEvents.recipes((event) => {
-  function unify(old_item, new_item) {
-    event.replaceInput({ input: old_item }, old_item, new_item);
-    event.replaceOutput({ output: old_item }, old_item, new_item);
-  }
-
-  unify("samurai_dynasty:steel_block", "immersiveengineering:block_steel");
-
   event.remove({ output: "#c:gears", type: "minecraft:crafting" });
 
   event.custom({

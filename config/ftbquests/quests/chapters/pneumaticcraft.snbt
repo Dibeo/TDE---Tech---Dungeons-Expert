@@ -1,0 +1,127 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: ""
+	icon: {
+		id: "pneumaticcraft:air_compressor"
+	}
+	id: "440E1531F121BAE3"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1BEDB864F8259FA2"
+			tasks: [
+				{
+					count: 16L
+					id: "14D21B5FF6F307BA"
+					item: { count: 16, id: "pneumaticcraft:reinforced_brick_pillar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "215D924C4A373AED"
+					item: { count: 8, id: "pneumaticcraft:ingot_iron_compressed" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1BEDB864F8259FA2"]
+			id: "0114F6B9CB08A5A4"
+			tasks: [{
+				id: "7FA72AEB8F12B4EE"
+				item: { count: 1, id: "pneumaticcraft:air_compressor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0114F6B9CB08A5A4"]
+			id: "115243F88A650859"
+			tasks: [{
+				id: "20D8602E94DE8A6C"
+				item: { count: 1, id: "pneumaticcraft:advanced_air_compressor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BEDB864F8259FA2"]
+			id: "46DAFEF7AA74BB8A"
+			tasks: [{
+				id: "31174DD5E32F2696"
+				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46DAFEF7AA74BB8A"]
+			id: "49D1E778526C7A5D"
+			tasks: [{
+				id: "65D32D8A35C5AE2E"
+				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"46DAFEF7AA74BB8A"
+				"0114F6B9CB08A5A4"
+			]
+			id: "2CC964DE8F341854"
+			tasks: [{
+				count: 8L
+				id: "52535E383EDC2053"
+				item: { count: 8, id: "pneumaticcraft:heat_pipe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2CC964DE8F341854"]
+			id: "2C195A7C8672F438"
+			tasks: [{
+				id: "7ACBB4BC09EEAA6F"
+				item: { count: 1, id: "pneumaticcraft:vortex_tube" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C195A7C8672F438"]
+			id: "444B3E6D8F97F7D4"
+			tasks: [{
+				id: "7A1D2274CB85BC67"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["091472316A7A4676"]
+			id: "5C60828DCC82B8A5"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "220653C1C995CFD3"
+				item: { count: 1, id: "pneumaticcraft:sentry_turret" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+	]
+}

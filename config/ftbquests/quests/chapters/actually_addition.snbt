@@ -1,0 +1,197 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "actually_addition"
+	group: ""
+	icon: {
+		id: "actuallyadditions:coffee_machine"
+	}
+	id: "1C54F9E8BF9165DE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["091472316A7A4676"]
+			id: "58F3FA3C6BD8C497"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "5875C6202B898730"
+				item: { count: 1, id: "actuallyadditions:coffee_cup" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05169E7D7497D3D3"]
+			id: "47210CC082E3B245"
+			tasks: [{
+				id: "04237270F124EED9"
+				item: { count: 1, id: "actuallyadditions:restonia_crystal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05169E7D7497D3D3"]
+			id: "27016389DB504BA5"
+			tasks: [{
+				id: "47FB77378AFF2833"
+				item: { count: 1, id: "actuallyadditions:palis_crystal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["05169E7D7497D3D3"]
+			id: "1484A5052933CA48"
+			tasks: [{
+				id: "2DD9C3207402B3EB"
+				item: { count: 1, id: "actuallyadditions:diamatine_crystal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["05169E7D7497D3D3"]
+			id: "7B114457E8C86427"
+			tasks: [{
+				id: "68D96D26ABAAEDA5"
+				item: { count: 1, id: "actuallyadditions:void_crystal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["05169E7D7497D3D3"]
+			id: "2B2DA5EDA27659D6"
+			tasks: [{
+				id: "48A6BBB9015DFC9A"
+				item: { count: 1, id: "actuallyadditions:emeradic_crystal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["05169E7D7497D3D3"]
+			id: "220267E53A4CA852"
+			tasks: [{
+				id: "533CD43CCD775240"
+				item: { count: 1, id: "actuallyadditions:enori_crystal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"220267E53A4CA852"
+				"18E0C29C2E8912DE"
+			]
+			id: "6D72EFA566966648"
+			tasks: [{
+				id: "3803B6D633CD4AFC"
+				item: { count: 1, id: "actuallyadditions:empowered_enori_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"47210CC082E3B245"
+				"18E0C29C2E8912DE"
+			]
+			id: "11DF3A2CE24A3DF5"
+			tasks: [{
+				id: "1A16BB936879DF7C"
+				item: { count: 1, id: "actuallyadditions:empowered_restonia_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"27016389DB504BA5"
+				"18E0C29C2E8912DE"
+			]
+			id: "40EA628212AB1179"
+			tasks: [{
+				id: "6B649C018442840B"
+				item: { count: 1, id: "actuallyadditions:empowered_palis_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"18E0C29C2E8912DE"
+				"1484A5052933CA48"
+			]
+			id: "61D772D4AAC89734"
+			tasks: [{
+				id: "3856E43DC3DEFECD"
+				item: { count: 1, id: "actuallyadditions:empowered_diamatine_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7B114457E8C86427"
+				"18E0C29C2E8912DE"
+			]
+			id: "79AABAD239646E33"
+			tasks: [{
+				id: "7D5BA7BA96880EFC"
+				item: { count: 1, id: "actuallyadditions:empowered_void_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"18E0C29C2E8912DE"
+				"2B2DA5EDA27659D6"
+			]
+			id: "5D4B1CC3AA26D068"
+			tasks: [{
+				id: "282BB3C9AD9C07C5"
+				item: { count: 1, id: "actuallyadditions:empowered_emeradic_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "18E0C29C2E8912DE"
+			tasks: [{
+				id: "637911E137E4E4A6"
+				item: { count: 1, id: "actuallyadditions:empowerer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "05169E7D7497D3D3"
+			tasks: [{
+				id: "4B0108C7A07FFE8E"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+	]
+}

@@ -12,6 +12,12 @@ ServerEvents.recipes((event) => {
       "#c:ingots/iron",
       "immersiveengineering:plate_iron"
     );
+
+    event.replaceInput(
+      { mod: "mekanism" },
+      "#c:glass_blocks",
+      "pneumaticcraft:pressure_chamber_glass"
+    );
   
     event.replaceInput(
       { mod: "mekanism" },
@@ -23,6 +29,30 @@ ServerEvents.recipes((event) => {
       { output: "mekanism:metallurgic_infuser" },
       "#c:ingots/osmium",
       "industrialforegoing:machine_frame_advanced"
+    );
+
+    event.replaceInput(
+      { output: "mekanism:mekasuit_helmet" },
+      "minecraft:netherite_helmet",
+      "pneumaticcraft:pneumatic_helmet"
+    );
+  
+    event.replaceInput(
+      { output: "mekanism:mekasuit_bodyarmor" },
+      "minecraft:netherite_chestplate",
+      "pneumaticcraft:pneumatic_chestplate"
+    );
+
+    event.replaceInput(
+      { output: "mekanism:mekasuit_pants" },
+      "minecraft:netherite_leggings",
+      "pneumaticcraft:pneumatic_leggings"
+    );
+
+    event.replaceInput(
+      { output: "mekanism:mekasuit_boots" },
+      "minecraft:netherite_boots",
+      "pneumaticcraft:pneumatic_boots"
     );
   });
   

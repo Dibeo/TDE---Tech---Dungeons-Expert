@@ -1,0 +1,294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misc"
+	group: ""
+	id: "514C36FC668197C3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37FC3CC8B36D1D41"]
+			id: "5D7DB8DB66725105"
+			tasks: [{
+				id: "43294A27C1A36BE9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironfurnaces:emerald_furnace)item(ironfurnaces:crystal_furnace)item(ironfurnaces:upgrade_crystal)item(ironfurnaces:upgrade_emerald))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["737EDDDB5E7D3DB2"]
+			id: "37FC3CC8B36D1D41"
+			tasks: [{
+				id: "4025096BA242CA0C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironfurnaces:diamond_furnace)item(ironfurnaces:upgrade_diamond))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5904E1E1FB030BFD"]
+			id: "737EDDDB5E7D3DB2"
+			tasks: [{
+				id: "736737B31D910210"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironfurnaces:gold_furnace)item(ironfurnaces:upgrade_gold2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "7B9A7528A0B2118B"
+			tasks: [{
+				id: "108FDCB2BD4F494A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironfurnaces:copper_furnace)item(ironfurnaces:upgrade_copper))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B9A7528A0B2118B"]
+			id: "0EA9F5104F58C970"
+			tasks: [{
+				id: "09B252149F86BF3B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironfurnaces:iron_furnace)item(ironfurnaces:upgrade_iron2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0EA9F5104F58C970"]
+			id: "5904E1E1FB030BFD"
+			tasks: [{
+				id: "79DE689ED3C36F7D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironfurnaces:silver_furnace)item(ironfurnaces:upgrade_silver2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D7DB8DB66725105"]
+			id: "049E5BB161C704E3"
+			tasks: [{
+				id: "05078576463D3636"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironfurnaces:obsidian_furnace)item(ironfurnaces:upgrade_obsidian)item(ironfurnaces:upgrade_obsidian2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["049E5BB161C704E3"]
+			id: "4CD94C197953EBB5"
+			tasks: [{
+				id: "65CA8E8B68CBE260"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironfurnaces:netherite_furnace)item(ironfurnaces:upgrade_netherite))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "7D34F86F52DAC992"
+			tasks: [{
+				id: "16E74F8DD570B8CB"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "5B339A4DFB46D06D"
+			tasks: [{
+				id: "1BF15CBC253B702A"
+				item: { count: 1, id: "pipez:fluid_pipe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "1EF26CB569F3E8AB"
+			tasks: [{
+				id: "7FA0637FEDD7A8B7"
+				item: { count: 1, id: "pipez:energy_pipe" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "4131CC2D03D41E54"
+			tasks: [{
+				id: "293B3FE59D61230E"
+				item: { count: 1, id: "pipez:gas_pipe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7D34F86F52DAC992"
+				"5B339A4DFB46D06D"
+				"4131CC2D03D41E54"
+				"1EF26CB569F3E8AB"
+				"16208EC5432D1B0D"
+			]
+			id: "2D5D8BCA9FE0D335"
+			tasks: [{
+				id: "6981AA3BCEB4DFCF"
+				item: { count: 1, id: "pipez:universal_pipe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "16208EC5432D1B0D"
+			rewards: [{
+				id: "4583EDC4ECB67787"
+				item: {
+					count: 1
+					id: "pipez:filter_destination_tool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D771B58E6C2BB46"
+				item: { count: 1, id: "pipez:wrench" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["16208EC5432D1B0D"]
+			id: "7616377DAA645D3F"
+			tasks: [{
+				id: "6FE8BE30425EE438"
+				item: { count: 1, id: "pipez:basic_upgrade" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7616377DAA645D3F"]
+			id: "2B7536F7ADFCAE25"
+			tasks: [{
+				id: "3DCB2CC5A4E22CDD"
+				item: { count: 1, id: "pipez:improved_upgrade" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B7536F7ADFCAE25"]
+			id: "7DF206009F5EC113"
+			tasks: [{
+				id: "622B09AC87C97E32"
+				item: { count: 1, id: "pipez:advanced_upgrade" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DF206009F5EC113"]
+			id: "49697E014796DD96"
+			tasks: [{
+				id: "345EAF07B8BE3A47"
+				item: { count: 1, id: "pipez:ultimate_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "43EEB871E3B9C8B8"
+			tasks: [{
+				id: "170D8AAD2040EB77"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:barrel)item(sophisticatedstorage:barrel)item(mekanism:personal_barrel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43EEB871E3B9C8B8"]
+			id: "738D622BC8009532"
+			tasks: [
+				{
+					id: "3674CF3125CBD930"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+				{
+					id: "20F66CF295683172"
+					item: { components: { "sophisticatedstorage:controller_pos": [I; -1304, 96, -570 ], "sophisticatedstorage:tool_mode": "LOCK" }, count: 1, id: "sophisticatedstorage:storage_tool" }
+					type: "item"
+				}
+				{
+					id: "271145B27A5973AD"
+					item: { count: 1, id: "sophisticatedstorage:paintbrush" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["091472316A7A4676"]
+			id: "1D14B5ACF835BA82"
+			optional: true
+			rewards: [{
+				id: "566A059023335523"
+				item: {
+					count: 1
+					id: "minecraft:golden_carrot"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6EDE9092D71E3B15"
+				stat: "minecraft:pig_one_cm"
+				type: "stat"
+				value: 100
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["091472316A7A4676"]
+			id: "49785A486F9374FC"
+			optional: true
+			rewards: [{
+				id: "4C93D07372B11C6D"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5D1C59E1D58FF8C3"
+				stat: "minecraft:raid_win"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+}

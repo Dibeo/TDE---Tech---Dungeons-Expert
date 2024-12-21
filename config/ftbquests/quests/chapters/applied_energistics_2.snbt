@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: ""
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "299917F7D4E9DEBF"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "15C66C3908BC9174"
+		tasks: [{
+			count: 16L
+			id: "5EF8280DDBC7844F"
+			item: { count: 16, id: "ae2:certus_quartz_crystal" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

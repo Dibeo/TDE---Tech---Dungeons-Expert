@@ -1,13 +1,14 @@
 ServerEvents.recipes((event) => {
     //Sophisticated mods
     event.replaceInput(
-      { mod: "sophisticatedstorage" },
-      "minecraft:string",
-      "#immersiveengineering:toolbox/wiring"
+      { output: "sophisticatedstorage:controller" },
+      "#minecraft:planks",
+      "immersiveengineering:treated_wood_horizontal"
     );
+
     event.replaceInput(
-      { mod: "sophisticatedbackpacks" },
-      "minecraft:string",
+      { mod: "sophisticatedstorage" },
+      "#minecraft:string",
       "#immersiveengineering:toolbox/wiring"
     );
   });

@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iii"
+	group: ""
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "36EF36E28A62C694"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D77665B618BCAA9"]
+			id: "12D2B04689CD09C6"
+			tasks: [{
+				id: "4517B6544106E564"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["091472316A7A4676"]
+			id: "1FB4FCB5AFC8475C"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "162EFABA87829963"
+				item: { count: 1, id: "mekanism:personal_chest" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["091472316A7A4676"]
+			id: "03DB655100CC2CD5"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "187592CBB6CD5501"
+				item: { count: 1, id: "mekanism:personal_barrel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+}

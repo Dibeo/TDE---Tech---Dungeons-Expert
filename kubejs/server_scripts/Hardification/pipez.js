@@ -52,4 +52,10 @@ ServerEvents.recipes((event) => {
     "#c:nuggets/iron",
     "actuallyadditions:enori_crystal_shard"
   );
+
+  event.replaceInput(
+    { output: "pipez:universal_pipe" },
+    "#c:plates/iron",
+    "pipez:gas_pipe"
+  );
 });

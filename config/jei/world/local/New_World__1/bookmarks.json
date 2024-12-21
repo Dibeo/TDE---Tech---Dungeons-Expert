@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"pneumaticcraft:pressure_chamber_glass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"industrialforegoing:machine_frame_pity","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"ironfurnaces:furnaces/diamond_furnace","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"actuallyadditions:atomic_reconstructor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:iron_casing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:dissolution_chamber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedstorage:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:lens_of_the_miner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"powah:capacitor_basic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"powah:dielectric_paste"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

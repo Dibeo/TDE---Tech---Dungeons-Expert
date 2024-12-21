@@ -5,5 +5,8 @@
   {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"samurai_dynasty:steel_nugget"},"type":"item_stack"}},
   {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"samurai_dynasty:steel_block"},"type":"item_stack"}},
   {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"samurai_dynasty:steel_ingot"},"type":"item_stack"}},
-  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"mekanism:nugget_steel"},"type":"item_stack"}}
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"mekanism:nugget_steel"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"ironfurnaces:upgrade_iron"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"ironfurnaces:upgrade_gold"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"ironfurnaces:upgrade_silver"},"type":"item_stack"}}
 ]

@@ -1,1 +1,7 @@
 /reload
+/ftbquests editing_mode
+/reload
+/spawnpoint
+/reload
+/ftbquests editing_mode
+/reload

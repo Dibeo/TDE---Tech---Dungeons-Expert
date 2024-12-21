@@ -1,0 +1,124 @@
+{
+  "ingot_gear_pairs": [
+    {
+      "ingot": "mekanism:ingot_bronze",
+      "gear": "moreplates:bronze_gear"
+    },
+    {
+      "ingot": "extendedae:entro_ingot",
+      "gear": "moreplates:entro_gear"
+    },
+    {
+      "ingot": "bigreactors:insanite_ingot",
+      "gear": "moreplates:insanite_gear"
+    },
+    {
+      "ingot": "bigreactors:inanite_ingot",
+      "gear": "moreplates:inanite_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_lead",
+      "gear": "moreplates:lead_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_refined_glowstone",
+      "gear": "moreplates:refined_glowstone_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_steel",
+      "gear": "moreplates:steel_gear"
+    },
+    {
+      "ingot": "immersiveengineering:ingot_nickel",
+      "gear": "moreplates:nickel_gear"
+    },
+    {
+      "ingot": "bigreactors:graphite_ingot",
+      "gear": "moreplates:graphite_gear"
+    },
+    {
+      "ingot": "bigreactors:blutonium_ingot",
+      "gear": "moreplates:blutonium_gear"
+    },
+    {
+      "ingot": "minecraft:copper_ingot",
+      "gear": "moreplates:copper_gear"
+    },
+    {
+      "ingot": "minecraft:iron_ingot",
+      "gear": "moreplates:iron_gear"
+    },
+    {
+      "ingot": "bigreactors:ridiculite_ingot",
+      "gear": "moreplates:ridiculite_gear"
+    },
+    {
+      "ingot": "bigreactors:cyanite_ingot",
+      "gear": "moreplates:cyanite_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_refined_obsidian",
+      "gear": "moreplates:refined_obsidian_gear"
+    },
+    {
+      "ingot": "immersiveengineering:ingot_hop_graphite",
+      "gear": "moreplates:hop_graphite_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_tin",
+      "gear": "moreplates:tin_gear"
+    },
+    {
+      "ingot": "industrialforegoing:pink_slime_ingot",
+      "gear": "moreplates:pink_slime_gear"
+    },
+    {
+      "ingot": "immersiveengineering:ingot_aluminum",
+      "gear": "moreplates:aluminum_gear"
+    },
+    {
+      "ingot": "immersiveengineering:ingot_silver",
+      "gear": "moreplates:silver_gear"
+    },
+    {
+      "ingot": "immersiveengineering:ingot_electrum",
+      "gear": "moreplates:electrum_gear"
+    },
+    {
+      "ingot": "minecraft:netherite_ingot",
+      "gear": "moreplates:netherite_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_osmium",
+      "gear": "moreplates:osmium_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_uranium",
+      "gear": "moreplates:uranium_gear"
+    },
+    {
+      "ingot": "bigreactors:yellorium_ingot",
+      "gear": "moreplates:yellorium_gear"
+    },
+    {
+      "ingot": "bigreactors:ludicrite_ingot",
+      "gear": "moreplates:ludicrite_gear"
+    },
+    {
+      "ingot": "bigreactors:magentite_ingot",
+      "gear": "moreplates:magentite_gear"
+    },
+    {
+      "ingot": "minecraft:gold_ingot",
+      "gear": "moreplates:gold_gear"
+    },
+    {
+      "ingot": "immersiveengineering:ingot_constantan",
+      "gear": "moreplates:constantan_gear"
+    },
+    {
+      "ingot": "pneumaticcraft:ingot_iron_compressed",
+      "gear": "moreplates:iron_compressed_gear"
+    }
+  ]
+}

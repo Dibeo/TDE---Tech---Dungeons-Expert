@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "i"
+	group: ""
+	icon: {
+		id: "immersiveengineering:hammer"
+	}
+	id: "166D189A51BCC942"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "339BC057EB7EB5B5"
+			rewards: [{
+				id: "4197573B77ED78C9"
+				item: {
+					count: 1
+					id: "immersiveengineering:toolbox"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12AA20CC8715BA72"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+				{
+					id: "7771EB08FF472D46"
+					item: { count: 1, id: "immersiveengineering:wirecutter" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["339BC057EB7EB5B5"]
+			id: "3B689807CA259AFA"
+			rewards: [{
+				count: 16
+				id: "074516EE1C0D45D3"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "2EE445316C020429"
+				item: { count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B689807CA259AFA"]
+			id: "55DB2B42C28877F0"
+			tasks: [{
+				count: 27L
+				id: "66BD016294CB60C6"
+				item: { count: 27, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3B689807CA259AFA"
+				"131FF56D654CDAB2"
+				"55DB2B42C28877F0"
+			]
+			id: "6B0AD4025CF3C7F3"
+			tasks: [{
+				id: "44DE29B022D0E185"
+				item: { count: 1, id: "immersiveengineering:watermill" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3B689807CA259AFA"
+				"131FF56D654CDAB2"
+			]
+			id: "4F0997F6EF7930C0"
+			tasks: [{
+				id: "384A10C7362E0301"
+				item: { count: 1, id: "immersiveengineering:windmill" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "131FF56D654CDAB2"
+			tasks: [{
+				id: "26F08682CCE7CCA8"
+				item: { count: 1, id: "immersiveengineering:dynamo" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F0997F6EF7930C0"]
+			id: "62620BD6040404AC"
+			tasks: [{
+				count: 8L
+				id: "261354D1D3E66FEE"
+				item: { count: 8, id: "immersiveengineering:windmill_sail" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+	]
+}
