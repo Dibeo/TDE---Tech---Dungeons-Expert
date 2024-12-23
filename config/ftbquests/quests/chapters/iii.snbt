@@ -47,5 +47,49 @@
 			x: -1.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["12D2B04689CD09C6"]
+			id: "200EAC8091ED7E11"
+			tasks: [{
+				id: "6A7ECB24F2E3A326"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["200EAC8091ED7E11"]
+			id: "3F3E78FC9F18633E"
+			tasks: [{
+				id: "1A9744D708DD3116"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F3E78FC9F18633E"]
+			id: "5EC36C84F5AAF582"
+			tasks: [{
+				id: "5D8C7EB841FE59D7"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5EC36C84F5AAF582"]
+			id: "224AABF3650BF34D"
+			tasks: [{
+				id: "7CE04052A9BCA50D"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
 	]
 }

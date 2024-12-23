@@ -5,3 +5,7 @@
 /reload
 /ftbquests editing_mode
 /reload
+/kubejs reload startup-scripts
+/reload
+/kjs reload startup-scripts
+/reload

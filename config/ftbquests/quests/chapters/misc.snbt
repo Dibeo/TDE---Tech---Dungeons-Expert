@@ -290,5 +290,16 @@
 			x: 0.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["738D622BC8009532"]
+			id: "724E91A7CB92852A"
+			tasks: [{
+				id: "53FE3787ECF07D97"
+				item: { count: 1, id: "sophisticatedstorage:compression_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
 	]
 }
