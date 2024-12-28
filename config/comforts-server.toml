@@ -24,9 +24,9 @@ dayWakeTimeOffset = 0
 #Range: -2000 ~ 2000
 nightWakeTimeOffset = 0
 #If enabled, attempting to sleep in hammocks stops phantoms from spawning.
-hammocksStopPhantoms = true
+hammocksStopPhantoms = false
 #If enabled, attempting to sleep in sleeping bags stops phantoms from spawning.
-sleepingBagsStopPhantoms = true
+sleepingBagsStopPhantoms = false
 #The percentage chance that a sleeping bag will break upon use.
 #Range: 0 ~ 100
 sleepingBagBreakChance = 0

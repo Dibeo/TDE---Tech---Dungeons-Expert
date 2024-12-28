@@ -82,7 +82,7 @@
 	wirelessBaseCost = 8.0
 	# Default: 1.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	wirelessCostMultiplier = 1.0
+	wirelessCostMultiplier = 2.0
 	# Default: 16.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
 	wirelessBaseRange = 16.0
@@ -102,7 +102,7 @@
 [powerRatios]
 	# Default: 0.5
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	forgeEnergy = 0.5
+	forgeEnergy = 0.25
 	# Default: 1.0
 	# Range: 0.01 ~ 1.7976931348623157E308
 	usageMultiplier = 1.0
@@ -126,10 +126,10 @@
 [condenser]
 	# Default: 256
 	# Range: > -2147483648
-	matterBalls = 256
+	matterBalls = 512
 	# Default: 256000
 	# Range: > -2147483648
-	singularity = 256000
+	singularity = 512000
 
 # Min / Max Tickrates for dynamic ticking, most of these components also use sleeping, to prevent constant ticking, adjust with care, non standard rates are not supported or tested.
 [tickRates]
