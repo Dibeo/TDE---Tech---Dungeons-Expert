@@ -7,6 +7,7 @@
 	chapter.514C36FC668197C3.title: "Misc"
 	chapter.5F22C33B3C640AE8.title: "Industrial Foregoing"
 	chapter.65AE00FFCE54306F.title: "Starter"
+	chapter.74F54C8269DA84EB.title: "Extreme Reactors"
 	quest.03DB655100CC2CD5.quest_subtitle: "Stupid Quest !!"
 	quest.049E5BB161C704E3.title: "Furnace : VII"
 	quest.091472316A7A4676.quest_desc: [
@@ -18,6 +19,7 @@
 		""
 		"They are optional quest, I know a vast majority of you will not do them."
 	]
+	quest.0B1D0389B8E3CF63.quest_desc: ["If you want to play it wireless you might need to passively farm those."]
 	quest.0EA9F5104F58C970.title: "Furnace : II"
 	quest.0EDACBD5A50B7E87.quest_desc: [
 		"It's way to easy to teleport so you will have to wait for Mekanism to do this."
@@ -31,6 +33,16 @@
 	]
 	quest.1D14B5ACF835BA82.quest_subtitle: "Stupid Quest !!"
 	quest.1FB4FCB5AFC8475C.quest_subtitle: "Stupid Quest !!"
+	quest.25518F5FEE981593.quest_desc: [
+		"This is a light pack."
+		""
+		"So if your screen become darker when your are not moving it's okay, move a little and it will come back."
+		""
+		"This for optimization, for when your game is running in the background."
+		""
+		"when darker, it does NOT mean your game is in pause, you still might die."
+	]
+	quest.2A0AE198A54B57FD.quest_desc: ["Craft hasn't changed, because you might use this a lot during your journey."]
 	quest.2B37F685F5233D3F.quest_desc: ["This one might be useful."]
 	quest.2B37F685F5233D3F.quest_subtitle: "Stupid Quest !!"
 	quest.37FC3CC8B36D1D41.title: "Furnace : V"
@@ -45,12 +57,23 @@
 	quest.5C60828DCC82B8A5.quest_desc: ["That's cool, I want you to have it."]
 	quest.5C60828DCC82B8A5.quest_subtitle: "Stupid Quest !!!"
 	quest.5D7DB8DB66725105.title: "Furnace : VI"
+	quest.6BEA7E2908CACFA3.quest_desc: [
+		"This pack need a lot of farm time for the number of quest."
+		""
+		"So you might want to make a lot of machine at least 3 or 4 times each."
+	]
+	quest.6FBAB254910D4815.quest_desc: [
+		"I cann't ask you a specific list of materials for your reactor as you can build them almost however you want it. "
+		""
+		"But please not that you will need a lot of energy and some of the high tier ressources."
+	]
 	quest.737EDDDB5E7D3DB2.title: "Furnace : IV"
 	quest.738D622BC8009532.quest_desc: [
 		"This replaces the usual drawer mod."
 		""
 		"Enjoy"
 	]
+	quest.73BD530A5CCB895D.quest_desc: ["You might need that in the future."]
 	quest.7B9A7528A0B2118B.title: "Furnace : I"
 	task.05078576463D3636.title: "Obsidian Furnace"
 	task.09B252149F86BF3B.title: "Iron Furnace"
@@ -59,8 +82,11 @@
 	task.1822E5632D6D0683.title: "Stupid Quest"
 	task.21BD8323431A20EF.title: "Start"
 	task.28C3D246E823A49E.title: "Teleportation"
+	task.3B8A5D80784757FA.title: "Light"
 	task.4025096BA242CA0C.title: "Diamond Furnace"
+	task.428B1AAF85660EBA.title: "Generator"
 	task.43294A27C1A36BE9.title: "Emerald or Glass Furnace"
+	task.4A54CC43D27182B0.title: "TIME"
 	task.65CA8E8B68CBE260.title: "Netherite Furnace"
 	task.68D91E54A369221D.title: "Chunk Load"
 	task.736737B31D910210.title: "Gold Furnace"

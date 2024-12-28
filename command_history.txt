@@ -9,3 +9,6 @@
 /reload
 /kjs reload startup-scripts
 /reload
+/kjs reload server-scripts
+/advancement grant Dibeo everything
+/reload

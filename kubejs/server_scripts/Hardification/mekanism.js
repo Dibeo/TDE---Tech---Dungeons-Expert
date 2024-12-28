@@ -66,4 +66,10 @@ ServerEvents.recipes((event) => {
     "minecraft:gold_ingot",
     "#c:ingots/electrum"
   );
+
+  event.replaceInput(
+    { output: "mekanism:teleportation_core" },
+    "minecraft:ender_pearl",
+    "actuallyadditions:ender_casing"
+  );
 });

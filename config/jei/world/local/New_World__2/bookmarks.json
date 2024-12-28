@@ -13,10 +13,10 @@
   {"ingredient":{"id":"mekanism:alloy_reinforced"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:alloy_infused"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:energy_tablet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanism:teleportation_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:ingot_electrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ae2:fluix_pearl"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"bigreactors:inanite_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"immersiveengineering:ingot_constantan"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"entangled:block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"actuallyadditions:leaf_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:coal_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:oil_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:dust_coal"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

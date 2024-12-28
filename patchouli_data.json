@@ -1,0 +1,15 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "bigreactors:erguide": {
+      "viewedEntries": [
+        "bigreactors:reactor/part-controller",
+        "bigreactors:reactor/part-controlrod",
+        "bigreactors:intro/first"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

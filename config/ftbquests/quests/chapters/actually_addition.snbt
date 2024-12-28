@@ -193,5 +193,15 @@
 			x: -5.5d
 			y: -3.5d
 		}
+		{
+			id: "3A19B8AE92D6FEE2"
+			tasks: [{
+				id: "428B1AAF85660EBA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:coal_generator)item(actuallyadditions:leaf_generator)item(actuallyadditions:oil_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
 	]
 }

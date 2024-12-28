@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extrem_reactor"
+	group: ""
+	icon: {
+		id: "bigreactors:deepslate_yellorite_ore"
+	}
+	id: "74F54C8269DA84EB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5333A4B782AF9E56"
+			tasks: [{
+				id: "20478E218EC95AF2"
+				item: { count: 1, id: "bigreactors:raw_yellorium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5333A4B782AF9E56"]
+			id: "6FBAB254910D4815"
+			tasks: [
+				{
+					id: "1153505B584CA136"
+					item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+					type: "item"
+				}
+				{
+					id: "656AE956AF81A31C"
+					item: { components: { "patchouli:book": "bigreactors:erguide" }, count: 1, id: "patchouli:guide_book" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FBAB254910D4815"]
+			id: "7334996E15655EDE"
+			tasks: [{
+				id: "79694881D88BC3C9"
+				item: { count: 1, id: "bigreactors:blutonium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7334996E15655EDE"]
+			id: "475948AFA95C275D"
+			tasks: [{
+				id: "4547A481181AF9C9"
+				item: { count: 1, id: "bigreactors:ludicrite_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["475948AFA95C275D"]
+			id: "7828FD9453CD722B"
+			tasks: [{
+				id: "602A700E7912AE0E"
+				item: { count: 1, id: "bigreactors:ridiculite_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7828FD9453CD722B"]
+			id: "0B1D0389B8E3CF63"
+			tasks: [{
+				id: "49ED86F5A2C7D0CB"
+				item: { count: 1, id: "bigreactors:inanite_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FBAB254910D4815"]
+			id: "73BD530A5CCB895D"
+			tasks: [{
+				id: "1EB726BFFB5EDA85"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+	]
+}

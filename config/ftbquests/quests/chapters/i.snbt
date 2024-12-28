@@ -7,7 +7,7 @@
 		id: "immersiveengineering:hammer"
 	}
 	id: "166D189A51BCC942"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -72,7 +72,6 @@
 		{
 			dependencies: [
 				"3B689807CA259AFA"
-				"131FF56D654CDAB2"
 				"55DB2B42C28877F0"
 			]
 			id: "6B0AD4025CF3C7F3"
@@ -85,10 +84,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"3B689807CA259AFA"
-				"131FF56D654CDAB2"
-			]
+			dependencies: ["3B689807CA259AFA"]
 			id: "4F0997F6EF7930C0"
 			tasks: [{
 				id: "384A10C7362E0301"
@@ -99,6 +95,10 @@
 			y: -4.5d
 		}
 		{
+			dependencies: [
+				"4F0997F6EF7930C0"
+				"6B0AD4025CF3C7F3"
+			]
 			id: "131FF56D654CDAB2"
 			tasks: [{
 				id: "26F08682CCE7CCA8"
@@ -119,6 +119,18 @@
 			}]
 			x: 1.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["6B0AD4025CF3C7F3"]
+			id: "47108015A14C37FE"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "1662974256F17AEF"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -3.0d
 		}
 	]
 }

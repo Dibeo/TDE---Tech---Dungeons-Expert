@@ -301,5 +301,32 @@
 			x: -3.5d
 			y: 7.0d
 		}
+		{
+			id: "2A0AE198A54B57FD"
+			tasks: [{
+				id: "39D6EDC3EBCE377C"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "3878A46CC5A8817E"
+			tasks: [
+				{
+					id: "7C23AD648735D5D2"
+					item: { count: 1, id: "entangled:block" }
+					type: "item"
+				}
+				{
+					id: "4829EB746DE606B7"
+					item: { count: 1, id: "entangled:item" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.0d
+		}
 	]
 }
